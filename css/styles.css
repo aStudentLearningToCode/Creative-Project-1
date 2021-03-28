@@ -1,0 +1,6 @@
+/* Clearing all browser styles */
+* {
+  margin: 0; /*This makes it so there isn't any white space around the edges*/
+  padding: 0;
+  box-sizing: border-box;/*This makes the 'width' element include the padding and margins*/
+}
