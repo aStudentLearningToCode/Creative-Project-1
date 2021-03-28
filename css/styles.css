@@ -10,6 +10,7 @@ body{
   text-align: center;
 }
 
+/*This makes sure the header is always visable on the page*/
 .navbar {
   position: fixed;
   top: 0;
@@ -17,18 +18,22 @@ body{
 }
 
 .mb-4 {
-  margin-bottom: 0!important;
+  margin-bottom: 0!important; /*Overwrites some annoying padding*/
 }
 
 .logo {
   height: 60px;
 }
 
+/*This makes sure the header and footer don't
+  cover any of the content*/
 .main-body {
   margin-top: 100px;
   margin-bottom: 160px;
 }
 
+/*This makes sure the footer stays at the bottom
+  of the page*/
 .footer {
   position: fixed;
   bottom: 0;

@@ -7,6 +7,7 @@
 
 .contact-item {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .contact-item img {
@@ -14,6 +15,9 @@
   align-items: flex-end;
 }
 
+.contact-content p {
+  margin-bottom: 0px!important;
+}
 
 
 
@@ -21,12 +25,25 @@
 
   .contact-item {
     display: table;
-    width: 40%;
+    width: 50%;
     height: 25vh;
   }
   .contact-content {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+  }
+
+  .image {
+    display: block;
+  }
+
+  .image img {
+    float: right;
+  }
+
+  .info {
+    text-align: left;
+    padding-left: 20px;
   }
 }
