@@ -4,3 +4,52 @@
   padding: 0;
   box-sizing: border-box;/*This makes the 'width' element include the padding and margins*/
 }
+
+body{
+  align-items: center;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.mb-4 {
+  margin-bottom: 0!important;
+}
+
+.logo {
+  height: 60px;
+}
+
+.main-body {
+  margin-top: 100px;
+  margin-bottom: 160px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+/* Desktop */
+@media only screen and (min-width: 990px) {
+  body{
+    width: 990px;
+    margin: 0 auto;
+  }
+
+  .navbar {
+    width: 990px;
+  }
+
+  .footer {
+    width: 999px;
+  }
+}
